@@ -1,0 +1,73 @@
+# Document Class
+#+LATEX_CLASS: org-plain-latex
+#+LATEX_CLASS_OPTIONS: [letterpaper, 11pt]
+# Ensure to have the right font
+#+LATEX_HEADER: \usepackage{lmodern}
+
+# usepackage
+#+LATEX_HEADER: \usepackage{fontspec, xunicode, xltxtra}
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \usepackage{tabularx}
+#+LATEX_HEADER: \usepackage{longtable}
+#+LATEX_HEADER: \usepackage{changelog}
+#+LATEX_HEADER: \usepackage[table]{xcolor}
+#+LATEX_HEADER: \usepackage{datetime2}
+#+LATEX_HEADER: \usepackage{multirow}
+#+LATEX_HEADER: \usepackage{adjustbox}
+#+LATEX_HEADER: \usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \usepackage{times}
+#+LATEX_HEADER: \usepackage{epsf}
+#+LATEX_HEADER: \usepackage{epsfig}
+#+LATEX_HEADER: \usepackage{amsmath, alltt, amssymb, xspace}
+#+LATEX_HEADER: \usepackage{wrapfig}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{url}
+#+LATEX_HEADER: \usepackage{verbatim}
+#+LATEX_HEADER: \usepackage{fancyvrb}
+#+LATEX_HEADER: \usepackage{adjustbox}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{subfigure}
+#+LATEX_HEADER: \usepackage{cite}
+#+LATEX_HEADER: \usepackage{sidecap}
+#+LATEX_HEADER: \usepackage{pifont}
+#+LATEX_HEADER: \usepackage{mdframed}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage[normalem]{ulem}
+
+# emoji setup
+
+# Colorizing links a nicer way
+#+LATEX_HEADER: \definecolor{bblue}{HTML}{0645AD}
+#+LATEX_HEADER: \usepackage[colorlinks]{hyperref}
+# #+LATEX_HEADER: \hypersetup{colorlinks, linkcolor=blue, urlcolor=bblue}
+
+# copyright
+#+LATEX_HEADER: \newcommand{\commonfolder}{./common-files}
+#+LATEX_HEADER: \input{\commonfolder/copyright}
+
+# Horizontal alignment
+#+LATEX_HEADER: \topmargin      -0.50in  % distance to headers
+#+LATEX_HEADER: \oddsidemargin  0.0in
+#+LATEX_HEADER: \evensidemargin 0.0in
+#+LATEX_HEADER: \textwidth      6.5in
+#+LATEX_HEADER: \textheight     8.9in
+
+# Fancy headers
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \chead{}
+#+LATEX_HEADER: \rhead{\small \thepage}
+#+LATEX_HEADER: \lfoot{}
+#+LATEX_HEADER: \cfoot{}
+#+LATEX_HEADER: \rfoot{}
+
+# CJK support, and other fonts
+#+latex_header_extra: \setmainfont[Ligatures=TeX]{Alegreya}
+# #+latex_header_extra: \setmonofont{FantasqueSansM Nerd Font}
+#+latex_header_extra: \setsansfont{Alegreya Sans}
+
+# Table
+#+latex_header_extra: \newcolumntype{d}{>{\hsize=2\hsize}X}
+#+latex_header_extra: \newcolumntype{h}{>{\hsize=.5\hsize}X}
