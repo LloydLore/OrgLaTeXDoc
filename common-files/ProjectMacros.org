@@ -1,0 +1,7 @@
+#+MACRO: Seajoe Media Talk
+#+MACRO: project_name "INPUT YOUR PROJECT NAME"
+#+MACRO: DOCUMENT_VERSION 0.0.1
+#+MACRO: PAGEBREAK #+latex: \pagebreak[4]
+#+LATEX_HEADER: \newcommand{\projectname}{USE YOUR PROJECT NAME}
+#+LATEX_HEADER: \newcommand{\documentheader}{Your Header, NOT Shoulder}
+#+LATEX_HEADER: \newcommand{\documentversion}{0.0.1}
