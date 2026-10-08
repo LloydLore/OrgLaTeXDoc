@@ -5,7 +5,7 @@
 #+LATEX_HEADER: \usepackage{lmodern}
 
 # usepackage
-#+LATEX_HEADER: \usepackage{fontspec, xunicode, xltxtra}
+#+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \usepackage{xeCJK}
 #+LATEX_HEADER: \usepackage{tabularx}
 #+LATEX_HEADER: \usepackage{longtable}
@@ -42,10 +42,13 @@
 # Colorizing links a nicer way
 #+LATEX_HEADER: \definecolor{bblue}{HTML}{0645AD}
 #+LATEX_HEADER: \usepackage[colorlinks]{hyperref}
+#+LATEX_HEADER: \usepackage{tabularray}
+#+LATEX_HEADER: \SetTblrDefault{hlines, vlines}
 # #+LATEX_HEADER: \hypersetup{colorlinks, linkcolor=blue, urlcolor=bblue}
 
 # copyright
-#+LATEX_HEADER: \newcommand{\commonfolder}{./common-files}
+#+LATEX_HEADER: \IfFileExists{./common-files/copyright.tex}{\newcommand{\commonfolder}{./common-files}}{\IfFileExists{../common-files/copyright.tex}{\newcommand{\commonfolder}{../common-files}}{\newcommand{\commonfolder}{../../common-files}}}
+# #+LATEX_HEADER: \newcommand{\commonfolder}{./common-files}
 #+LATEX_HEADER: \input{\commonfolder/copyright}
 
 # Horizontal alignment
@@ -67,6 +70,9 @@
 #+latex_header_extra: \setmainfont[Ligatures=TeX]{Alegreya}
 # #+latex_header_extra: \setmonofont{FantasqueSansM Nerd Font}
 #+latex_header_extra: \setsansfont{Alegreya Sans}
+#+latex_header_extra: \setCJKmainfont{Noto Serif CJK SC}
+#+latex_header_extra: \setCJKsansfont{Noto Sans CJK SC}
+#+latex_header_extra: \setCJKmonofont{Noto Sans Mono CJK SC}
 
 # Table
 #+latex_header_extra: \newcolumntype{d}{>{\hsize=2\hsize}X}
