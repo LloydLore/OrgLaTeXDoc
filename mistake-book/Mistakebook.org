@@ -1,0 +1,524 @@
+#+SETUPFILE: ../common-files/OrgLaTexSetup.org
+#+INCLUDE: ../common-files/ProjectMacros.org
+# #+LATEX_HEADER: \SetTblrDefault{hlines, vlines, row{odd} = {bg=gray9}}
+
+#+title: Mistakebook
+
+ok, 终于好了
+
+* Test table
+
+#+ATTR_LATEX: :align colspec={X[l]X[l]X[l]}
+| 单词  | 意思 | 重复 |
+|-------+------+------|
+| love  | 爱   |    1 |
+| peace | 和平 |    2 |
+|       |      |      |
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词 | 词义       | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|------+------------+--------+----+------+------+------+-------+-------|
+|      | 一天，一日 |        |    |      |      |      |       |       |
+|      | 起床       |        |    |      |      |      |       |       |
+|      | 洗         |        |    |      |      |      |       |       |
+|      | 脸，面孔   |        |    |      |      |      |       |       |
+|      | 上课       |        |    |      |      |      |       |       |
+
+* 口算
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 算式        | 答案 | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|-------------+------+--------+----+------+------+------+-------+-------|
+| $440 \div 40$  |      |        |    |      |      |      |       |       |
+| $25 \times 80$   |      |        |    |      |      |      |       |       |
+| $110 \div 2$   |      |        |    |      |      |      |       |       |
+| $15 \times 4$    |      |        |    |      |      |      |       |       |
+| $270 - 135$ |      |        |    |      |      |      |       |       |
+| $900 \div 15$  |      |        |    |      |      |      |       |       |
+| $760 \div 38$ |      |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+* 第一单元导学案
+
+** 单词
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词 | 词义               | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|------+--------------------+--------+----+------+------+------+-------+-------|
+|      | 学科，科目         |        |    |      |      |      |       |       |
+|      | 语文（课）；中国的 |        |    |      |      |      |       |       |
+|      | 英语（课）；英语的 |        |    |      |      |      |       |       |
+|      | 数学（课）         |        |    |      |      |      |       |       |
+|      | 体育（课）         |        |    |      |      |      |       |       |
+|      | 美术（课）         |        |    |      |      |      |       |       |
+|      | 科学（课）         |        |    |      |      |      |       |       |
+|      | 音乐（课）         |        |    |      |      |      |       |       |
+|      | 最                 |        |    |      |      |      |       |       |
+|      | 也                 |        |    |      |      |      |       |       |
+|      | 鼠标；老鼠         |        |    |      |      |      |       |       |
+|      | 新的               |        |    |      |      |      |       |       |
+|      | 有趣的             |        |    |      |      |      |       |       |
+|      | 操场               |        |    |      |      |      |       |       |
+|      | 全部，都           |        |    |      |      |      |       |       |
+|      | 阅读               |        |    |      |      |      |       |       |
+|      | 故事               |        |    |      |      |      |       |       |
+|      | 信息科技（课）     |        |    |      |      |      |       |       |
+|      | 课程表，时间表     |        |    |      |      |      |       |       |
+|      | 数字               |        |    |      |      |      |       |       |
+|      | 文化，文明         |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** 词组
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 词组 | 译文             | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|------+------------------+--------+----+------+------+------+-------+-------|
+|      | 我们学校的课程   |        |    |      |      |      |       |       |
+|      | 新学期           |        |    |      |      |      |       |       |
+|      | 道德与法治（课） |        |    |      |      |      |       |       |
+|      | 学起来有趣       |        |    |      |      |      |       |       |
+|      | 在学校努力学习   |        |    |      |      |      |       |       |
+|      | 我热爱做的事     |        |    |      |      |      |       |       |
+|      | 最喜欢           |        |    |      |      |      |       |       |
+|      | 寻找             |        |    |      |      |      |       |       |
+|      | 该做…的时候了    |        |    |      |      |      |       |       |
+|      | 擅长…            |        |    |      |      |      |       |       |
+|      | 学习（关于）     |        |    |      |      |      |       |       |
+|      | 来到学校         |        |    |      |      |      |       |       |
+|      | 跟我学           |        |    |      |      |      |       |       |
+|      | 所有的学科       |        |    |      |      |      |       |       |
+|      | 使我变聪明       |        |    |      |      |      |       |       |
+|      | …欢迎回到…       |        |    |      |      |      |       |       |
+|      | 我最喜欢的科目   |        |    |      |      |      |       |       |
+|      | 新的课程表       |        |    |      |      |      |       |       |
+|      | 读英语故事       |        |    |      |      |      |       |       |
+|      | 中国文化         |        |    |      |      |      |       |       |
+|      | …想学…           |        |    |      |      |      |       |       |
+|      | 去操场           |        |    |      |      |      |       |       |
+|      | 他们最喜欢的学科 |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** 句子
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 英文                                         | 中文                                 | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|----------------------------------------------+--------------------------------------+--------+----+------+------+------+-------+-------|
+| Q: What subject do you like best?            | 问：你最喜欢什么学科？               |        |    |      |      |      |       |       |
+| A: I like Music best                         | 答：我最喜欢音乐                     |        |    |      |      |      |       |       |
+|                                              |                                      |        |    |      |      |      |       |       |
+| I also like IT                               | 我也喜欢信息科技                     |        |    |      |      |      |       |       |
+|                                              |                                      |        |    |      |      |      |       |       |
+| A: It's time for IT                          | 甲：该上信息课了。                   |        |    |      |      |      |       |       |
+| B: Let's go!                                 | 乙：走吧！                           |        |    |      |      |      |       |       |
+|                                              |                                      |        |    |      |      |      |       |       |
+| Q: Where is the mouse?                       | 问：鼠标在哪里？                     |        |    |      |      |      |       |       |
+| A: Mouse? I'm here!                          | 答：老鼠？我在这儿！                 |        |    |      |      |      |       |       |
+|                                              |                                      |        |    |      |      |      |       |       |
+| Welcome back to school, class.               | 欢迎回到学校，同学们                 |        |    |      |      |      |       |       |
+| We have Chinese, Maths, Egnlish, and Science | 我们有语文课、数学课、英语课和科学课 |        |    |      |      |      |       |       |
+| I'm good at Maths.                           | 我擅长数学。                         |        |    |      |      |      |       |       |
+| Science is interesting.                      | 科学课有趣。                         |        |    |      |      |      |       |       |
+| I want to learn about Chinese culture.       | 我想学中国文化。                     |        |    |      |      |      |       |       |
+| I like reading English stoires.              | 我喜欢英语故事。                     |        |    |      |      |      |       |       |
+| We all like PE!                              | 我们都喜欢体育课！                   |        |    |      |      |      |       |       |
+| Let's go to the playground!                  | 我们去操场吧！                       |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** 单词答案
+
+#+ATTR_LATEX: :align colspec={X[3,r]X[3,l]*{8}{X[1,c]}}
+| 单词        | 词义               | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|-------------+--------------------+--------+----+------+------+------+-------+-------|
+| subject     | 学科，科目         |        |    |      |      |      |       |       |
+| Chinese     | 语文（课）；中国的 |        |    |      |      |      |       |       |
+| English     | 英语（课）；英语的 |        |    |      |      |      |       |       |
+| Maths       | 数学（课）         |        |    |      |      |      |       |       |
+| PE          | 体育（课）         |        |    |      |      |      |       |       |
+| Art         | 美术（课）         |        |    |      |      |      |       |       |
+| Science     | 科学（课）         |        |    |      |      |      |       |       |
+| Music       | 音乐（课）         |        |    |      |      |      |       |       |
+| best        | 最                 |        |    |      |      |      |       |       |
+| also        | 也                 |        |    |      |      |      |       |       |
+| mouse       | 鼠标；老鼠         |        |    |      |      |      |       |       |
+| new         | 新的               |        |    |      |      |      |       |       |
+| interesting | 有趣的             |        |    |      |      |      |       |       |
+| playground  | 操场               |        |    |      |      |      |       |       |
+| all         | 全部，都           |        |    |      |      |      |       |       |
+| read        | 阅读               |        |    |      |      |      |       |       |
+| story       | 故事               |        |    |      |      |      |       |       |
+| IT          | 信息科技（课）     |        |    |      |      |      |       |       |
+| timetable   | 课程表，时间表     |        |    |      |      |      |       |       |
+| number      | 数字               |        |    |      |      |      |       |       |
+| culture     | 文化，文明         |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** 词组答案
+
+#+ATTR_LATEX: :align colspec={X[3,r]X[3,l]*{8}{X[1,c]}}
+| 词组                       | 译文             | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|----------------------------+------------------+--------+----+------+------+------+-------+-------|
+| our school subjecs         | 我们学校的课程   |        |    |      |      |      |       |       |
+| new term                   | 新学期           |        |    |      |      |      |       |       |
+| Ethics and the Rule of Law | 道德与法治（课） |        |    |      |      |      |       |       |
+| fun to learn               | 学起来有趣       |        |    |      |      |      |       |       |
+| work hard at school        | 在学校努力学习   |        |    |      |      |      |       |       |
+| what I love to do          | 我热爱做的事     |        |    |      |      |      |       |       |
+| like ... best              | 最喜欢           |        |    |      |      |      |       |       |
+| look for                   | 寻找             |        |    |      |      |      |       |       |
+| It's time for/to do        | 该做…的时候了    |        |    |      |      |      |       |       |
+| be good at ...             | 擅长…            |        |    |      |      |      |       |       |
+| learn about                | 学习（关于）     |        |    |      |      |      |       |       |
+| come to school             | 来到学校         |        |    |      |      |      |       |       |
+| learn with me              | 跟我学           |        |    |      |      |      |       |       |
+| all the subjects           | 所有的学科       |        |    |      |      |      |       |       |
+| make me smart              | 使我变聪明       |        |    |      |      |      |       |       |
+| welcome back to ...        | …欢迎回到…       |        |    |      |      |      |       |       |
+| my favorite subject        | 我最喜欢的科目   |        |    |      |      |      |       |       |
+| new timetable              | 新的课程表       |        |    |      |      |      |       |       |
+| read English stoires       | 读英语故事       |        |    |      |      |      |       |       |
+| Chinese culture            | 中国文化         |        |    |      |      |      |       |       |
+| want to learn about ...    | …想学…           |        |    |      |      |      |       |       |
+| go to the playground       | 去操场           |        |    |      |      |      |       |       |
+| their favorite subjects    | 他们最喜欢的学科 |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+* 第二单元导学案
+
+** 单词
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词      | 词义             | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|-----------+------------------+--------+----+------+------+------+-------+-------|
+| day       | 一天，一日       |        |    |      |      |      |       |       |
+| wash      | 洗               |        |    |      |      |      |       |       |
+| face      | 脸               |        |    |      |      |      |       |       |
+| have      | 吃，喝           |        |    |      |      |      |       |       |
+| dinner    | 正餐（常指晚餐） |        |    |      |      |      |       |       |
+| breakfast | 早餐             |        |    |      |      |      |       |       |
+| lunch     | 午餐，午饭       |        |    |      |      |      |       |       |
+| o'clock   | (表示正点)…点钟  |        |    |      |      |      |       |       |
+| early     | 早的，早         |        |    |      |      |      |       |       |
+| first     | 首先，第一       |        |    |      |      |      |       |       |
+| thirty    | 三十             |        |    |      |      |      |       |       |
+| twenty    | 二十             |        |    |      |      |      |       |       |
+| class     | 课，上课         |        |    |      |      |      |       |       |
+| eleven    | 十一             |        |    |      |      |      |       |       |
+| sport     | 体育运动         |        |    |      |      |      |       |       |
+| fifteen   | 十五             |        |    |      |      |      |       |       |
+| bed       | 床               |        |    |      |      |      |       |       |
+| slow      | 慢的             |        |    |      |      |      |       |       |
+| check     | 检查             |        |    |      |      |      |       |       |
+| busy      | 忙碌的           |        |    |      |      |      |       |       |
+| daily     | 日常的           |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** 词组
+
+#+ATTR_LATEX: :align colspec={X[3,r]X[3,l]*{8}{X[1,c]}}
+| 词组                    | 译文         | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|-------------------------+--------------+--------+----+------+------+------+-------+-------|
+| get up                  | 起床         |        |    |      |      |      |       |       |
+| have lessons            | 上课         |        |    |      |      |      |       |       |
+| go to bed               | 上床睡觉     |        |    |      |      |      |       |       |
+| hurry up                | 快点         |        |    |      |      |      |       |       |
+| my day                  | 我的一天     |        |    |      |      |      |       |       |
+| go to the sports ground | 去操场       |        |    |      |      |      |       |       |
+| have dinner             | 吃晚饭       |        |    |      |      |      |       |       |
+| check your bag          | 检查你的书包 |        |    |      |      |      |       |       |
+| go to school            | 去学校       |        |    |      |      |      |       |       |
+| in the morning          | 在早上       |        |    |      |      |      |       |       |
+| carry my ball           | 带上我的球   |        |    |      |      |      |       |       |
+| say bye/hi              | 说再见\你好  |        |    |      |      |      |       |       |
+| come back home          | 回家         |        |    |      |      |      |       |       |
+| make a clock            | 制作一个时钟 |        |    |      |      |      |       |       |
+| talk with sb.           | 和某人交谈   |        |    |      |      |      |       |       |
+| be careful              | 当心         |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** 句子
+
+#+ATTR_LATEX: :align colspec={X[3,r]X[3,l]*{8}{X[1,c]}}
+| 句子                                          | 译文                          | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|-----------------------------------------------+-------------------------------+--------+----+------+------+------+-------+-------|
+| Q: What time is it now?/What's the time now?  | 问：现在几点？                |        |    |      |      |      |       |       |
+| A: It's nine o'clock.                         | 答：现在 9 点钟。             |        |    |      |      |      |       |       |
+|                                               |                               |        |    |      |      |      |       |       |
+| It's seven twenty. I get up.                  | 现在 7 点 20. 我起床了。      |        |    |      |      |      |       |       |
+| It's seven thirty. I have breakfast.          | 现在是 7 点 30 分。我吃早饭。 |        |    |      |      |      |       |       |
+| Wash my face.                                 | 洗脸。                        |        |    |      |      |      |       |       |
+| Don't be late!                                | 不要迟到！                    |        |    |      |      |      |       |       |
+| Don't be slow!                                | 不要慢！                      |        |    |      |      |      |       |       |
+| That's the rule.                              | 那是规则                      |        |    |      |      |      |       |       |
+| Hurry up!                                     | 快点！                        |        |    |      |      |      |       |       |
+| I'm coming!                                   | 我来了！                      |        |    |      |      |      |       |       |
+| Come on!                                      | 快点！加油！                  |        |    |      |      |      |       |       |
+| It's time for lunch./It's time to have lunch. | 该是吃午饭的时间了。          |        |    |      |      |      |       |       |
+| It's time to go to bed./It's time for bed.    | 该睡觉了。                    |        |    |      |      |      |       |       |
+| Let's have dinner.                            | 让我们吃晚饭吧。              |        |    |      |      |      |       |       |
+
+* Word lists
+
+** Unit 1
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词                | 词义               | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|---------------------+--------------------+--------+-----+------+------+------+-------+-------|
+| subject             | 学科，科目         |        |     |      |      |      |       |       |
+| Chinese             | 语文（课）；中国的 |        |     |      |      |      |       |       |
+| English             | 英语（课）；英语的 |        |     |      |      |      |       |       |
+| PE                  | 体育（课）         |        |     |      |      |      |       |       |
+| Art                 | 美术（课）         |        |     |      |      |      |       |       |
+| Science             | 科学（课）         |        |     |      |      |      |       |       |
+| IT                  | 信息科技（课）     |        |     |      |      |      |       |       |
+| Music               | 音乐（课）         |        |     |      |      |      |       |       |
+| best                | 最，最高程度的     |        |     |      |      |      |       |       |
+| also                | 也                 |        |     |      |      |      |       |       |
+| It's time for ...   | 是…的时候了        |        |     |      |      |      |       |       |
+| mouse(pl. mice)     | 鼠标；老鼠         |        |     |      |      |      |       |       |
+| Welcome back to ... | 欢迎回到…          |        |     |      |      |      |       |       |
+| new                 | 新的               |        |     |      |      |      |       |       |
+| timetable           | 课程表；时间表     |        |     |      |      |      |       |       |
+| be good at          | 擅长               |        |     |      |      |      |       |       |
+| number              | 数学               |        |     |      |      |      |       |       |
+| interesting         | 有趣的，有吸引力的 |        |     |      |      |      |       |       |
+| learn about         | 学习               |        |     |      |      |      |       |       |
+| culture             | 文化，文明         |        |     |      |      |      |       |       |
+| read                | 阅读               |        |     |      |      |      |       |       |
+| story               | 故事               |        |     |      |      |      |       |       |
+| all                 | 全部，都           |        |     |      |      |      |       |       |
+| playground          | 操场               |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 2
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词             | 词义               | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| day              | 一天，一日         |        |     |      |      |      |       |       |
+| get up           | 起床               |        |     |      |      |      |       |       |
+| wash             | 洗                 |        |     |      |      |      |       |       |
+| face             | 脸，面孔           |        |     |      |      |      |       |       |
+| have lessons     | 上课               |        |     |      |      |      |       |       |
+| have             | 吃，喝             |        |     |      |      |      |       |       |
+| dinner           | 正餐（常指晚餐）   |        |     |      |      |      |       |       |
+| breakfast        | 早餐，晚饭         |        |     |      |      |      |       |       |
+| lunch            | 午餐，午饭         |        |     |      |      |      |       |       |
+| go to bed        | 上床睡觉           |        |     |      |      |      |       |       |
+| o'clock          | （表示整点）……点钟 |        |     |      |      |      |       |       |
+| early            | 早的，早           |        |     |      |      |      |       |       |
+| thirty           | 三十               |        |     |      |      |      |       |       |
+| first            | 首先，第一         |        |     |      |      |      |       |       |
+| hurry up         | 快点               |        |     |      |      |      |       |       |
+| What time is it? | 几点了？           |        |     |      |      |      |       |       |
+| I'm coming       | 我来了！           |        |     |      |      |      |       |       |
+| twenty           | 二十               |        |     |      |      |      |       |       |
+| Come on!         | 赶快！加把劲！     |        |     |      |      |      |       |       |
+| class            | 课，上课           |        |     |      |      |      |       |       |
+| eleven           | 十一               |        |     |      |      |      |       |       |
+| sport            | 体育运动           |        |     |      |      |      |       |       |
+| fifteen          | 十五               |        |     |      |      |      |       |       |
+| It's time to ... | 到了……的时间了     |        |     |      |      |      |       |       |
+| bed              | 床                 |        |     |      |      |      |       |       |
+| Good night!      | 晚安！            |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 3
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词                  | 词义                   | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| week                  | 周，星期               |        |     |      |      |      |       |       |
+| Sunday                | 星期天                 |        |     |      |      |      |       |       |
+| Monday                | 星期一                 |        |     |      |      |      |       |       |
+| Tuesday               | 星期二                 |        |     |      |      |      |       |       |
+| Wednesday             | 星期三                 |        |     |      |      |      |       |       |
+| Thursday              | 星期四                 |        |     |      |      |      |       |       |
+| Friday                | 星期五                 |        |     |      |      |      |       |       |
+| Saturday              | 星期六                 |        |     |      |      |      |       |       |
+| up                    | 起床                   |        |     |      |      |      |       |       |
+| so                    | （表示程度）这么，那么 |        |     |      |      |      |       |       |
+| early                 | 提早，提前             |        |     |      |      |      |       |       |
+| when                  | 什么时候               |        |     |      |      |      |       |       |
+| every                 | 每一个，每个           |        |     |      |      |      |       |       |
+| at                    | 在（某时间）           |        |     |      |      |      |       |       |
+| today                 | 在今天                 |        |     |      |      |      |       |       |
+| What day is it today? | 今天星期几？           |        |     |      |      |      |       |       |
+| cinema                | 电影院                 |        |     |      |      |      |       |       |
+| after school          | 放学后                 |        |     |      |      |      |       |       |
+| dancing               | 跳舞，舞蹈             |        |     |      |      |      |       |       |
+| lesson                | 一节课，一课时         |        |     |      |      |      |       |       |
+| walk                  | 牵着（动物）走，遛     |        |     |      |      |      |       |       |
+| dog                   | 狗                     |        |     |      |      |      |       |       |
+| tomorrow              | 明天；在明天           |        |     |      |      |      |       |       |
+| free                  | 空闲的                 |        |     |      |      |      |       |       |
+| See you tomorrow!     | 明天见！               |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 4
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词         | 词义               | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| play         | 打（球），踢（球） |        |     |      |      |      |       |       |
+| football     | 足球运动；足球     |        |     |      |      |      |       |       |
+| ping-pong    | 乒乓球运动         |        |     |      |      |      |       |       |
+| basketball   | 篮球运动；篮球     |        |     |      |      |      |       |       |
+| great        | 非常的             |        |     |      |      |      |       |       |
+| well         | 好                 |        |     |      |      |      |       |       |
+| Have a go!   | 试一试！           |        |     |      |      |      |       |       |
+| oops         | 哎哟               |        |     |      |      |      |       |       |
+| try          | 试                 |        |     |      |      |      |       |       |
+| Well played! | 好球！             |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 5
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词      | 词义             | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| different | 不同的，有求别的 |        |     |      |      |      |       |       |
+| same      | 相同的，同一的   |        |     |      |      |      |       |       |
+| hair      | 头发             |        |     |      |      |      |       |       |
+| eye       | 眼睛             |        |     |      |      |      |       |       |
+| ear       | 耳朵             |        |     |      |      |      |       |       |
+| nose      | 鼻子             |        |     |      |      |      |       |       |
+| mouth     | 嘴，口           |        |     |      |      |      |       |       |
+| arm       | 手臂             |        |     |      |      |      |       |       |
+| leg       | 腿               |        |     |      |      |      |       |       |
+| robot     | 机器人           |        |     |      |      |      |       |       |
+| his       | 他的             |        |     |      |      |      |       |       |
+| tall      | 高的             |        |     |      |      |      |       |       |
+| doll      | 玩具娃娃         |        |     |      |      |      |       |       |
+| her       | 她的             |        |     |      |      |      |       |       |
+| small     | 小的             |        |     |      |      |      |       |       |
+| bring     | 带来             |        |     |      |      |      |       |       |
+| lots of   | 大量，许多       |        |     |      |      |      |       |       |
+| puppet    | 玩偶，木偶       |        |     |      |      |      |       |       |
+| show      | 表演，演出       |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 6
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词                           | 词义              | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| weather                        | 天气，气象        |        |     |      |      |      |       |       |
+| cloudy                         | 多云的，阴天的    |        |     |      |      |      |       |       |
+| sunny                          | 晴朗的            |        |     |      |      |      |       |       |
+| cool                           | 凉的，凉爽的      |        |     |      |      |      |       |       |
+| rainy                          | 阴雨的，多雨的    |        |     |      |      |      |       |       |
+| hot                            | 温度高的，热的    |        |     |      |      |      |       |       |
+| windy                          | 多风的，风大的    |        |     |      |      |      |       |       |
+| warm                           | 温暖的，暖和的    |        |     |      |      |      |       |       |
+| save... for a rainy day        | 未雨绸缪          |        |     |      |      |      |       |       |
+| money                          | 钱                |        |     |      |      |      |       |       |
+| What's the weather like today? | 今天天气怎么样？  |        |     |      |      |      |       |       |
+| park                           | 公园              |        |     |      |      |      |       |       |
+| meet                           | （与…）会面，集合 |        |     |      |      |      |       |       |
+| fly a kite                     | 放风筝            |        |     |      |      |      |       |       |
+| worry                          | 担心，担忧        |        |     |      |      |      |       |       |
+| umbrella                       | 伞，雨伞          |        |     |      |      |      |       |       |
+| there                          | 到那里，在那里    |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 7
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词       | 词义             | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| season     | 季节             |        |     |      |      |      |       |       |
+| spring     | 春天，春季       |        |     |      |      |      |       |       |
+| go boating | 去划船           |        |     |      |      |      |       |       |
+| winter     | 冬天，冬季       |        |     |      |      |      |       |       |
+| go skating | 去溜冰，去滑冰   |        |     |      |      |      |       |       |
+| summer     | 夏天，夏季       |        |     |      |      |      |       |       |
+| ice cream  | 冰激淋           |        |     |      |      |      |       |       |
+| go swiming | 去旅游           |        |     |      |      |      |       |       |
+| autumn     | 秋天，秋季       |        |     |      |      |      |       |       |
+| go climing | 去爬山           |        |     |      |      |      |       |       |
+| cold       | 寒冷的，冷的     |        |     |      |      |      |       |       |
+| bird       | 鸟               |        |     |      |      |      |       |       |
+| back       | 回原处           |        |     |      |      |      |       |       |
+| in         | 在（某个时间）内 |        |     |      |      |      |       |       |
+| year       | 年               |        |     |      |      |      |       |       |
+| plant      | 栽种，种植       |        |     |      |      |      |       |       |
+| pick       | 采，摘           |        |     |      |      |      |       |       |
+| snow       | 雪，积雪         |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** Unit 8
+
+#+ATTR_LATEX: :align colspec={X[3,c]X[3,l]*{8}{X[1,c]}}
+| 单词       | 词义                 | 第一遍 | 1 h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+| holiday    | 假日，假期           |        |     |      |      |      |       |       |
+| clothes    | 衣服                 |        |     |      |      |      |       |       |
+| cap        | （犹指有帽舌的）便帽 |        |     |      |      |      |       |       |
+| coat       | 外套，外衣           |        |     |      |      |      |       |       |
+| skirt      | 半身裙               |        |     |      |      |      |       |       |
+| trouses    | 裤子                 |        |     |      |      |      |       |       |
+| dress      | 连衣裙               |        |     |      |      |      |       |       |
+| shirt      | (男式）衬衫          |        |     |      |      |      |       |       |
+| whose      | 谁的                 |        |     |      |      |      |       |       |
+| look       | 看来好像，显得       |        |     |      |      |      |       |       |
+| in         | 穿着，戴着           |        |     |      |      |      |       |       |
+| sunglasses | 太阳镜，墨镜         |        |     |      |      |      |       |       |
+| why        | 为什么               |        |     |      |      |      |       |       |
+| wear       | 穿，戴               |        |     |      |      |      |       |       |
+| because    | 因为                 |        |     |      |      |      |       |       |
+| bright     | 聪明的；明亮的       |        |     |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+* Single Option
+
+** 题目
+
+1. My father goes to bed \rule{1.6em}{0.4pt} eleven \rule{1.6em}{0.4pt} night.
+   A. at, in    B. on, in    C. at, at
+
+** 答案与解析
+
+1. C
+   - 答案 :: C. at, at
+   - 解析 :: 两个空都填 at。at 用于具体时刻（at eleven）；at night 是固定搭配，意为「在夜间、晚上」。
+   - 错因 :: 把 at night 错记成 in night。
+   - 考点 :: 时间介词 at —— at + 具体时刻；固定搭配 at night
