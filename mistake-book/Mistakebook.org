@@ -279,6 +279,56 @@ ok, 终于好了
 | It's time to go to bed./It's time for bed.    | 该睡觉了。                    |        |    |      |      |      |       |       |
 | Let's have dinner.                            | 让我们吃晚饭吧。              |        |    |      |      |      |       |       |
 
+#+begin_export latex
+\newpage
+#+end_export
+
+* 第三单元导学案
+* Cartoon and Story time
+** Oh, it's Saturday
+:PROPERTIES:
+:CUSTOM_ID: U3 Cartoon Time
+:END:
+
+#+ATTR_LATEX: :align colspec={X[4,l]X[3,l]*{7}{X[1,c]}}
+| 句子                                                                          | 答案                                                                      | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|-------------------------------------------------------------------------------+---------------------------------------------------------------------------+--------+----+------+------+------+-------+-------|
+| I can't \uline{\quad} \newline school \uline{\quad}!                          | I can't be late for school again!                                         |        |    |      |      |      |       |       |
+| It's \uline{\quad}!                                                           | It's six thirty!                                                          |        |    |      |      |      |       |       |
+| Good morning, \newline Mr Wilson. \uline{\qquad}. \newline \rule{1cm}{0.5pt}. | Good morning, Mr Wilson. You're up so early. When do you get up everyday? |        |    |      |      |      |       |       |
+| Good morning, Bobby! \newline I \uline{\qquad \qquad}!                        | Good morning, Bobby! I get up at five!                                    |        |    |      |      |      |       |       |
+| You're \uline{\quad} today!                                                   | You're up early today!                                                    |        |    |      |      |      |       |       |
+| Yes, \newline I want \uline{\qquad \qquad}.                                   | Yes, I want to go to school early.                                        |        |    |      |      |      |       |       |
+| School? \uline{\qquad} \newline today?                                        | School? What day is it today?                                             |        |    |      |      |      |       |       |
+| Oh, it's \uline{\quad}!                                                       | Oh, it's saturday!                                                        |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
+** After school
+:PROPERTIES:
+:CUSTOM_ID: U3 Story Time
+:END:
+
+#+ATTR_LATEX: :align colspec={X[4,l]X[3,l]*{7}{X[1,c]}}
+| 句子                                                                                                           | 答案                                                                                        | 第一遍 | 1h | 1 天 | 2 天 | 6 天 | 14 天 | 30 天 |
+|----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------+----+------+------+------+-------+-------|
+| It's \uline{\quad} today. \newline Let's \uline{\qquad \qquad}.                                                | It's Friday today. Let's go to the cinema after school.                                     |        |    |      |      |      |       |       |
+| It's \uline{\qquad \qquad}, but \newline I \uline{\qquad \qquad}. \newline I \uline{\qquad \qquad} every week. | It's a good idea, but I have a dancing lesson today. I have two dancing lessons every week. |        |    |      |      |      |       |       |
+| \uline{\qquad} do \newline you \uline{\qquad \qquad}?                                                          | When do you have dancing lessons?                                                           |        |    |      |      |      |       |       |
+| \uline{\qquad \qquad} \newline and \uline{\qquad \qquad}.                                                      | On Wednesday and Friday.                                                                    |        |    |      |      |      |       |       |
+| \uline{\qquad \qquad} you, Mike?                                                                               | What about you, Mike?                                                                       |        |    |      |      |      |       |       |
+| Sorry, I \uline{\qquad \qquad} \newline and \uline{\qquad \qquad}.                                             | Sorry, I walk my dog on Tuesday and Friday.                                                 |        |    |      |      |      |       |       |
+| \uline{\qquad \qquad}?                                                                                         | What about tomorrow?                                                                        |        |    |      |      |      |       |       |
+| OK. I'm \uline{\qquad \qquad}.                                                                                 | OK. I'm free on Saturday.                                                                   |        |    |      |      |      |       |       |
+| Me too.                                                                                                        | Me too.                                                                                     |        |    |      |      |      |       |       |
+| Great! \uline{\qquad \qquad}!                                                                                  | Great! \uline{See you tomorrow}!                                                            |        |    |      |      |      |       |       |
+
+#+begin_export latex
+\newpage
+#+end_export
+
 * Word lists
 
 ** Unit 1
